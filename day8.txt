@@ -1,0 +1,49 @@
+Topics for the day
+=================
+
+Multithreading
+IO
+java8 new features
+design patterns
+maven
+git
+
+-------------------------------------------------------------
+Multithreading
+================
+
+what is it
+difference in multiprocessing and multitasking
+
+
+package com.demo.java8;
+
+
+interface Welcome{
+	int add(int a, int b);
+}
+
+public class LambadaDemo {
+	public static void main(String[] args) {
+		
+		Welcome w1=(num1,num2)->{return num1+num2;};
+		System.out.println(w1.add(12,5));
+
+	}
+
+}
+
+    ()->{//statement}
+------------------------------------------------------------
+Maven
+======
+   build tool
+spring framework
+
+
+
+
+
+
+
+
